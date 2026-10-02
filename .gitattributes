@@ -1,0 +1,28 @@
+# 文本文档统一为 LF；CAD 和网格保持原始字节
+* text=auto
+*.md text eol=lf whitespace=-blank-at-eol
+*.tsv text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.editorconfig text eol=lf
+*.[sS][lL][dD][pP][rR][tT] binary
+*.[sS][lL][dD][aA][sS][mM] binary
+*.[sS][lL][dD][dD][rR][wW] binary
+*.[sS][tT][lL] binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary
+
+# 历史说明保留原始字节，与导入校验值一致
+references/*/*-notes-unknown.md -text

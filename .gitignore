@@ -1,0 +1,33 @@
+# SolidWorks / Office 临时锁定文件
+~$*
+
+# 系统与编辑器本地状态
+Thumbs.db
+.DS_Store
+desktop.ini
+.vscode/
+.idea/
+
+# 凭据与本地配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python 环境与缓存
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 后续工具的依赖和生成目录
+node_modules/
+outputs/
+.cache/
+build/
+dist/
+*.log
