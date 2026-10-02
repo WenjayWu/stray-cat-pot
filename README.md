@@ -54,4 +54,4 @@ stray-cat-pod/
 
 本项目沿用 lab-workspace-suite 的 [CC BY 4.0](LICENSE)。项目自有设计与文档按该协议提供；引用或收录的第三方资料遵循其原许可，AI 概念图的来源与许可确定程度见各方案说明。署名可注明「WenjayWu / stray-cat-pod」并链接实际取得资料的仓库地址。
 
-本次完成本地 Git 初始化；远程地址与公开发布状态见 [STATUS.md](STATUS.md)。
+远程仓库：[WenjayWu/stray-cat-pot](https://github.com/WenjayWu/stray-cat-pot)。本地项目名称沿用 `stray-cat-pod`，远程名称按维护者提供的地址使用 `stray-cat-pot`；当前 Git 状态与设计进度见 [STATUS.md](STATUS.md)。
