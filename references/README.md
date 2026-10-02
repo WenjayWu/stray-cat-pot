@@ -9,6 +9,7 @@
 | [shelter-v01](shelter-v01/README.md) | 第一轮公共设施、骨架、保温与维护探索，10 张 | 原记录称生成概念图，具体工具未知；概念参考 |
 | [shelter-v02-cute](shelter-v02-cute/README.md) | 第二轮 A++ 全打印、克制萌，4 张 | 具体工具未知；概念参考 |
 | [shelter-v03-cat-elements](shelter-v03-cat-elements/README.md) | 第三轮建筑化猫元素，4 张 | 具体工具未知；概念参考 |
+| [shelter-v04-buildable](shelter-v04-buildable/README.md) | 第四轮分片小屋，2 张图＋离线交互 HTML；分件、单猫布局与开顶维护 | HTML：Codex；图片：OpenAI 内置 image_gen；未建模试制 |
 
 ## 组织与命名
 
@@ -20,7 +21,7 @@
 | --- | --- |
 | `cat-head-entrance-shelter-concept-unknown.webp` | 来源尚未确定的入口外观概念图 |
 | `shelter-v03-cat-elements-notes-unknown.md` | 随第三轮概念图保存的历史说明 |
-| `pod-preview-codex.html` | 后续可使用的概念预览命名示例，当前未创建 |
+| `shelter-v04-preview-codex.html` | 第四轮实际离线交互构造预览 |
 | `pod-roof-unknown.STL` | 后续可使用的参考屋顶命名示例，当前未创建 |
 
 来源可以是作者、生成工具或网站；不确定时用 unknown，并在 README 中说明证据。不能只根据「Codex 默认生成目录」反推具体图像模型。找到原记录后再同步修改文件名、引用与清单。日期、模型版本、原链接和提示词记在说明中；同名新版本使用 -v2 等后缀并保留历史版本。
@@ -28,6 +29,8 @@
 ## 图片与导入记录
 
 18 张概念图均来自桌面「流浪猫窝计划」，按原目录分为三轮。仓库使用保留 1536 × 1024 分辨率的有损 WebP 查看版，以 FFmpeg 8.1.1 / libwebp、quality 85、compression_level 6 转换；原 PNG 和历史说明保留在桌面来源目录。本仓库不是原始 PNG 备份。
+
+第四轮于 2026-10-02 新生成 2 张概念图，与前三轮分别管理；同分辨率压缩 WebP 随离线 HTML 入库，PNG 原件保留在生成工具默认目录。来源、完整提示词、压缩方式与校验值见 [本轮生成记录](shelter-v04-buildable/shelter-v04-prompts-codex.md)，不修改历史导入清单。
 
 [import-manifest.tsv](import-manifest.tsv) 记录相对来源路径、仓库目标、原始大小、原始 SHA-256、归档大小、归档 SHA-256 与转换方式。来源路径均相对于原「流浪猫窝计划」目录，不要求贡献者具有作者本机路径。三份 notes 保留原字节；其中旧 PNG 名称通过各方案 README 的映射查找当前文件。
 

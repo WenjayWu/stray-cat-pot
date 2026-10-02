@@ -2,7 +2,7 @@
 
 一个面向半户外场景的模块化流浪猫窝开源设计项目，从「流浪猫窝计划」的方案文档与概念图孵化而来。目标是做出可移动、可维护、可复制的猫屋，并公开设计源文件、打印网格与试制记录。
 
-当前处于方案与概念参考阶段：已归档一份 v1.0 计划和三轮共 18 张概念图；本仓库尚无 SolidWorks 模型、打印网格或实际验证记录。进度以 [STATUS.md](STATUS.md) 为准。
+当前处于方案与概念参考阶段：已归档一份 v1.0 计划和四轮共 20 张概念图；第四轮新增围绕分件装配、单猫布局与开顶清洁的离线交互 HTML。本仓库尚无 SolidWorks 模型、打印网格或实际验证记录。进度以 [STATUS.md](STATUS.md) 为准。
 
 ## 设计方向
 
@@ -12,8 +12,9 @@
 
 ## 从哪里开始
 
+- [第四轮：分片小屋交互预览](references/shelter-v04-buildable/shelter-v04-preview-codex.html)：最新方案，旋转、剖切、拆分及内部布局；[方案说明](references/shelter-v04-buildable/README.md) 记录假设与验证项。
 - [设计计划 v1.0](docs/design-plan-v1.md)：需求、分件设想、初始参数、成本估算和测试安排。
-- [设计参考索引](references/README.md)：三轮外观与结构概念图、历史说明和来源记录。
+- [设计参考索引](references/README.md)：四轮外观与结构概念、离线预览、历史说明和来源记录。
 - [STATUS.md](STATUS.md)：当前状态、下一步与更新记录。
 - [CONTRIBUTING.md](CONTRIBUTING.md)：如何提交设计建议、模型或试制反馈。
 
@@ -36,7 +37,8 @@ stray-cat-pod/
 │   ├── import-manifest.tsv     # 孵化资料映射与 SHA-256
 │   ├── shelter-v01/            # 第一轮：公共设施与结构探索，10 张
 │   ├── shelter-v02-cute/        # 第二轮：A++ 克制萌，4 张
-│   └── shelter-v03-cat-elements/ # 第三轮：建筑化猫元素，4 张
+│   ├── shelter-v03-cat-elements/ # 第三轮：建筑化猫元素，4 张
+│   └── shelter-v04-buildable/   # 第四轮：分件与开顶维护，HTML + 2 张
 ├── README.md
 ├── STATUS.md
 ├── CONTRIBUTING.md
