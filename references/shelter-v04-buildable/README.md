@@ -12,7 +12,7 @@
 | [shelter-v04-exterior-concept-imagegen.webp](shelter-v04-exterior-concept-imagegen.webp) | OpenAI 内置 image_gen 生成的完整外形参考 |
 | [shelter-v04-maintenance-concept-imagegen.webp](shelter-v04-maintenance-concept-imagegen.webp) | 同一外形的开顶与分片内胆维护参考 |
 | [shelter-v04-prompts-codex.md](shelter-v04-prompts-codex.md) | 两次实际图片提示词、生成与压缩方式、源文件及校验值 |
-| [shelter-v04-review-codex.md](shelter-v04-review-codex.md) | 初始化检查、用户反馈、设计决策与验证边界 |
+| [第四轮评审日志](../../docs/logs/2026-10-02-shelter-v04-review.md) | 初始化检查、用户反馈、设计决策与验证边界；统一归档于 docs/logs/ |
 
 浏览器直接打开 HTML，无需联网、依赖或服务。保持两张 WebP 与 HTML 在同一目录。点击图片放大，Esc 关闭；立体图可拖动旋转，也支持方向键和加减键，滚轮缩放。复位按钮恢复完整外形与默认观察方向。
 

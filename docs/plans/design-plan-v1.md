@@ -11,7 +11,7 @@ tags:
   - PETG
   - 榫卯连接
 related:
-  - ../references/shelter-v03-cat-elements/README.md
+  - ../../references/shelter-v03-cat-elements/README.md
 ---
 
 # 流浪猫“商品房”设计计划

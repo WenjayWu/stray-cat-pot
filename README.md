@@ -13,7 +13,8 @@
 ## 从哪里开始
 
 - [第四轮：分片小屋交互预览](references/shelter-v04-buildable/shelter-v04-preview-codex.html)：最新方案，旋转、剖切、拆分及内部布局；[方案说明](references/shelter-v04-buildable/README.md) 记录假设与验证项。
-- [设计计划 v1.0](docs/design-plan-v1.md)：需求、分件设想、初始参数、成本估算和测试安排。
+- [设计计划 v1.0](docs/plans/design-plan-v1.md)：需求、分件设想、初始参数、成本估算和测试安排。
+- [设计文档导览](docs/README.md)：计划、评审日志与反馈记录的分类入口。
 - [设计参考索引](references/README.md)：四轮外观与结构概念、离线预览、历史说明和来源记录。
 - [STATUS.md](STATUS.md)：当前状态、下一步与更新记录。
 - [CONTRIBUTING.md](CONTRIBUTING.md)：如何提交设计建议、模型或试制反馈。
@@ -30,8 +31,13 @@
 stray-cat-pod/
 ├── <component-name>/           # 后续实际开发的组件，尚未建立
 ├── docs/
-│   ├── README.md               # 设计文档导览
-│   └── design-plan-v1.md        # 继承的 v1.0 设计计划
+│   ├── README.md               # 设计文档导览与分类约定
+│   ├── plans/                  # 设计与试验计划
+│   │   ├── README.md
+│   │   └── design-plan-v1.md    # 继承的 v1.0 设计计划
+│   └── logs/                   # 评审、决策、试制日志与使用反馈
+│       ├── README.md
+│       └── 2026-10-02-shelter-v04-review.md
 ├── references/
 │   ├── README.md               # 参考索引与命名规则
 │   ├── import-manifest.tsv     # 孵化资料映射与 SHA-256

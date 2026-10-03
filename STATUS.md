@@ -2,13 +2,14 @@
 
 ## 当前状态
 
-- 最近更新：2026-10-02。
+- 最近更新：2026-10-03。
 - 阶段：初始化完成，推进第四轮分件装配与内部维护概念设计。
 - 开发组件：0；尚无 CAD、STL 或试制记录入库。
 - 参考方案：4 轮，20 张概念图；第四轮另含离线交互 HTML、布局和接口示意；用于设计探索，未验证。
-- 设计计划：继承 v1.0，原创建日期 2026-06-15，原更新日期 2026-09-07。
+- 设计计划：[继承 v1.0](docs/plans/design-plan-v1.md)，原创建日期 2026-06-15，原更新日期 2026-09-07；后续计划统一放在 `docs/plans/`。
+- 日志与反馈：[docs/logs/](docs/logs/README.md) 收录设计评审、讨论决策和后续试制/使用反馈，已有第四轮评审记录，尚无实物验证记录。
 - 开源协议：沿用 lab-workspace-suite 的 CC BY 4.0；参考资料的来源不确定性见各方案。
-- Git：main 已推送至 [WenjayWu/stray-cat-pot](https://github.com/WenjayWu/stray-cat-pot)，并跟踪 origin/main；origin 地址为 `https://github.com/WenjayWu/stray-cat-pot.git`。本地项目名称仍为 stray-cat-pod。
+- Git：main 已推送至 [WenjayWu/stray-cat-pot](https://github.com/WenjayWu/stray-cat-pot)，并跟踪 origin/main；origin 地址为 `https://github.com/WenjayWu/stray-cat-pot.git`。本地项目名称仍为 stray-cat-pod；本次文档整理仅作本地提交，未推送。
 
 ## 开发组件清单
 
@@ -32,7 +33,7 @@
 - [ ] 评审第四轮外观、约 350 mm 低檐净高、入口与短挡板；核实放置条件后做 1∶1 空间样件。
 - [ ] 先建模和打印连接试样，验证榫槽间隙、拆装与接缝。
 - [ ] 建立首个开发组件并保存 SolidWorks 源文件与 STL。
-- [ ] 逐步归档材料清单、切片设置、组装说明和测试反馈。
+- [ ] 逐步归档材料清单、切片设置和组装说明，并在 [日志目录](docs/logs/README.md) 记录试制与测试反馈。
 - [ ] 继续核对历史参考资料的来源与许可范围。
 - [x] 配置维护者指定的 GitHub 远程仓库并推送 main。
 
@@ -44,3 +45,4 @@
 | 2026-10-02 | 归档 | 继承 v1.0 计划并修正参考路径；归档 3 轮共 18 张同分辨率 WebP、3 份原始说明及文件映射/校验值，桌面原件保留 |
 | 2026-10-02 | 概念设计 | 基于分件装配与内部维护反馈新增第四轮分片小屋：单猫、开顶逐片取内胆，2 张 image_gen 图、离线交互 HTML、布局与接口示意；历史参考保留，开发组件仍为 0 |
 | 2026-10-02 | 远程同步 | 按维护者提供的 stray-cat-pot 地址配置 origin，首次推送初始化与第四轮设计提交；main 跟踪 origin/main，本地项目名称及文件路径保留 |
+| 2026-10-03 | 文档整理 | 建立 [计划](docs/plans/README.md) 与 [日志](docs/logs/README.md) 分类，迁移历史计划和第四轮评审；同步链接、目录约定及导入清单的计划路径与校验值 |
